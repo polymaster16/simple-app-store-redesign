@@ -1,4 +1,11 @@
 <template>
+   <Head>
+      <Title>
+         Simple App Store - Home
+      </Title>
+      <Link rel="icon" :href="`https://cdn.midjourney.com/100de0e8-bce3-416c-a677-bb0aef0878fb/0_2.webp`"/>
+
+   </Head>
 <!--    
    <swiper :modules="[EffectCube, Autoplay]" effect="cube"
    :direction="'horizontal'"
