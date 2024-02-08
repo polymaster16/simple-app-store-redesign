@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blockstyle{
+    line-height: 1.6;
+    white-space: break-spaces;
+    overflow: visible;
+  }
+
+  @font-face {
+    font-family: 'Mandhor';
+    src: url('@/assets/mandhor-font/Mandhor-ALEmp.otf') format('truetype');
+  }
+
+
+  .mandhor{
+    font-family: Mandhor;
+  }
+
+  .glassx{
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.33);
+border-radius: 0px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.5px);
+-webkit-backdrop-filter: blur(9.5px);
+border: 1px solid rgba(0, 0, 0, 0.11);
+  }
